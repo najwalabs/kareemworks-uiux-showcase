@@ -4,12 +4,67 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>KareemWorks — UI/UX Showcase | Muhammad Najwa AlMahrusy</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 0; background:#ffffff; color:#111; display:flex; align-items:center; justify-content:center; height:100vh; }
-    .card { max-width:1100px; padding:28px; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.06); text-align:center; }
-    a.button { display:inline-block; margin-top:18px; padding:12px 18px; border-radius:8px; text-decoration:none; background:#0b63d3; color:white; }
-    p.meta { color:#555; margin:6px 0 0; }
-    embed { width:100%; height:600px; border-radius:8px; border:1px solid #eee; margin-top:18px; }
+<style>
+    :root {
+      --bg-color: #0e1116;
+      --card-bg: #161b22;
+      --text-color: #e6edf3;
+      --subtext-color: #9da9b5;
+      --accent-color: #3b82f6;
+      --border-color: #30363d;
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      margin: 0;
+      background: var(--bg-color);
+      color: var(--text-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .card {
+      max-width: 1100px;
+      background: var(--card-bg);
+      padding: 32px;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      border: 1px solid var(--border-color);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p.meta {
+      color: var(--subtext-color);
+      margin: 6px 0 0;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: var(--accent-color);
+      color: white;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #2563eb;
+    }
+    embed {
+      width: 100%;
+      height: 600px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      margin-top: 24px;
+      background: #0d1117;
+    }
+    a.pdf-link {
+      color: var(--accent-color);
+    }
   </style>
 </head>
 <body>
