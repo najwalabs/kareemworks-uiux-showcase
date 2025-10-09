@@ -23,6 +23,3 @@ This repository contains the UI/UX showcase for **KareemWorks Consultant**, a Ja
 
 ## Credits
 Designed by **Muhammad Najwa AlMahrusy** — 2025
-
-## License
-This project is released under the MIT License. See `LICENSE` file.
